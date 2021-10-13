@@ -6,3 +6,17 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: royalblue;
+    text-transform: uppercase;
+}
+
+/* Common */
+
+.author {
+    text-align: right;
+    font-style: italic;
+    font-size: 16px;
+    color: royalblue;
+}
+

@@ -18,16 +18,20 @@
                     <div class="col-sm-6 offset-sm-3 text-center">
                         <div class="card">
                             <div class="card-body">
-                              <h5 class="card-title">"Random Quote"</h5>
-                              <p class="card-text"></p>
+                              <h5 class="quote">"{{ currentQuote }}"</h5>
+                              <p class="author">-{{ currentAuthor }}-</p>
                             </div>
                         </div>
-                        <button href="#" class="btn btn-primary my-3">"New Quote</button>
+                        <button @click="getRanQuote()"  href="#" class="btn btn-primary my-3">New Quote</button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Vue -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <!-- Axios -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js" integrity="sha512-Idr7xVNnMWCsgBQscTSCivBNWWH30oo/tzYORviOCrLKmBaRxRflm2miNhTFJNVmXvCtzgms5nlJF4az2hiGnA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- My script -->
         <script src="vue/script.js"></script>
     </body>
 </html>
